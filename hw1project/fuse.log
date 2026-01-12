@@ -1,0 +1,49 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/ise/hw1projectStefanosBotsaris/datapath_tb_isim_beh.exe -prj /home/ise/hw1projectStefanosBotsaris/datapath_tb_beh.prj work.datapath_tb work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/register.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/mux32to1.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/decoder5to32.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/registerfile.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/mux2to1_5bit.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/mux2to1.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/immedcalc.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/imem.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/alu.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/memstage.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/ifstage.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/decode.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/alustage.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/datapath.v" into library work
+Analyzing Verilog file "/home/ise/hw1projectStefanosBotsaris/datapath_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/ise/hw1projectStefanosBotsaris/datapath.v" Line 74: Size mismatch in connection of port <mem_out>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "/home/ise/hw1projectStefanosBotsaris/datapath.v" Line 99: Size mismatch in connection of port <dout>. Formal port size is 32-bit while actual signal size is 1-bit.
+Completed static elaboration
+Fuse Memory Usage: 95052 KB
+Fuse CPU Usage: 1390 ms
+Compiling module imem
+Compiling module mux2to1
+Compiling module ifstage
+Compiling module mux2to1_5bit
+Compiling module decoder5to32
+Compiling module register
+Compiling module mux32to1
+Compiling module registerfile
+Compiling module immedcalc
+Compiling module decode
+Compiling module alu
+Compiling module alustage
+Compiling module memstage
+Compiling module datapath
+Compiling module datapath_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 16 Verilog Units
+Built simulation executable /home/ise/hw1projectStefanosBotsaris/datapath_tb_isim_beh.exe
+Fuse Memory Usage: 98252 KB
+Fuse CPU Usage: 1440 ms
+GCC CPU Usage: 700 ms

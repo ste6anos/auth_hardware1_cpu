@@ -1,0 +1,4 @@
+verilog work "register.v"
+verilog work "mux32to1.v"
+verilog work "decoder5to32.v"
+verilog work "registerfile.v"

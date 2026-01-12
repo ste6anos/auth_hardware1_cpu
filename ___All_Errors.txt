@@ -1,0 +1,13 @@
+CorrelationId: 5d957c9b-c322-4ed5-b749-d3413f78d19a
+UTC DateTime: 01/12/2026 21:00:28
+
+The following files/folders have not been downloaded
+0. hw1projectStefanosBotsaris/isim/alu_tb_isim_beh.exe.sim/isimcrash.log
+1. hw1projectStefanosBotsaris/isim/alustage_tb_isim_beh.exe.sim/isimcrash.log
+2. hw1projectStefanosBotsaris/isim/datapath_tb_isim_beh.exe.sim/isimcrash.log
+3. hw1projectStefanosBotsaris/isim/decode_tb_isim_beh.exe.sim/isimcrash.log
+4. hw1projectStefanosBotsaris/isim/immedcalc_tb_isim_beh.exe.sim/isimcrash.log
+5. hw1projectStefanosBotsaris/isim/register_tb_isim_beh.exe.sim/isimcrash.log
+6. hw1projectStefanosBotsaris/isim/lockfile
+7. hw1projectStefanosBotsaris/isim/lockfile1
+8. hw1projectStefanosBotsaris/alustage.stx

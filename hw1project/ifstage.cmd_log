@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/hw1projectStefanosBotsaris/ifstage.xst" -ofn "/home/ise/hw1projectStefanosBotsaris/ifstage.syr" 
