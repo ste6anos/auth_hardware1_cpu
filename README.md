@@ -9,6 +9,8 @@
 ## Project Overview
 This project involves the design and implementation of a **32-bit Multi-cycle Processor** using **Verilog HDL**. It was developed as part of the "Digital Systems HW-1" course at the **Aristotle University of Thessaloniki (AUTH)**.
 
+(datapath.png)
+
 The processor follows a MIPS-like architecture, supporting R-type, I-type, and J-type instructions, executed across multiple clock cycles via a Finite State Machine (FSM).
 
 ## Architecture Highlights
